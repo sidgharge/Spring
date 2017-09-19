@@ -7,6 +7,8 @@
 <bean id="performer" class="com.bridgelabz.AutowireByConstructor.Performer" autowire="constructor"/>
 
 <bean id="instrument" class="com.bridgelabz.AutowireByConstructor.Instrument">
-	<property name="name">Dhol</property>
+	<property name="name">
+		<value>Dhol</value>
+	</property>
 </bean>
 </beans>
