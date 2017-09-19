@@ -2,10 +2,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bridgelabz</groupId>
-	<artifactId>Spring3</artifactId>
+	<artifactId>HelloWorldWithXml</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Spring3 Maven Webapp</name>
+	<name>HelloWorldWithXml Maven Webapp</name>
 	<url>http://maven.apache.org</url>
 	<dependencies>
 		<dependency>
@@ -30,13 +30,6 @@
 			<version>4.3.10.RELEASE</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
-		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>4.3.10.RELEASE</version>
-		</dependency>
-
 		<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 		<dependency>
 			<groupId>org.springframework</groupId>
@@ -44,18 +37,8 @@
 			<version>4.3.10.RELEASE</version>
 		</dependency>
 
-		<!-- https://mvnrepository.com/artifact/org.glassfish.web/jstl-impl -->
-		<dependency>
-			<groupId>org.glassfish.web</groupId>
-			<artifactId>jstl-impl</artifactId>
-			<version>1.2</version>
-		</dependency>
-
-
-
-
 	</dependencies>
 	<build>
-		<finalName>Spring3</finalName>
+		<finalName>HelloWorldWithXml</finalName>
 	</build>
 </project>

@@ -4,6 +4,8 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+
 <title>Insert title here</title>
 </head>
 <body>
@@ -14,5 +16,7 @@
 
 <h2>Name: <%=name %></h2>
 <h3>Hobby: <%=hobby %></h3>
+
+<h4></h4>
 </body>
 </html>
