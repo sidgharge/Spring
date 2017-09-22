@@ -1,13 +1,12 @@
-package com.bridgelabz.SpringHibernate;
+package com.bridgelabz.SpringHibernate2;
 
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import com.bridgelabz.SpringHibernate.dao.EmployeeDao;
-import com.bridgelabz.SpringHibernate.model.Employee;
+import com.bridgelabz.SpringHibernate2.dao.EmployeeDao;
+import com.bridgelabz.SpringHibernate2.model.Employee;
 
 public class App {
-	
 	public static void main(String[] args) {
 		
 		Employee employee = new Employee();
